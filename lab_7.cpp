@@ -22,7 +22,8 @@ int main() {
 
     std::cout << "\nВаша матрица в результате работы программы:\n";
     ShowMatrix(mtrx, n, m);
-
+    
+    delete(mtrx);
 
     return 0;
 }
